@@ -1,0 +1,188 @@
+@import url(https://fonts.google.com/specimen/Barlow+Semi+Condensed);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 81%);
+}
+
+.content {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 40px;
+}
+
+.joint {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+.joint1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.joint2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.con__img {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+}
+
+.con1 {
+    width: 40em;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 8px;
+    padding: 20px;
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: right top;
+}
+
+.con2 {
+    width: 18em;
+    background-color: hsl(219, 29%, 14%);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.con3 {
+    width: 18em;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+.con4 {
+    width: 40em;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.con5 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 18em;
+}
+#text2 {
+    color: hsl(217, 19%, 35%);
+}
+
+#diff {
+    color: hsl(219, 29%, 14%);
+}
+
+#change {
+    color: hsl(219, 29%, 14%);
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.names {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.occ {
+    font-size: 14px;
+    color: hsl(0, 0%, 81%);
+}
+
+.info {
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.text {
+    margin-top: 10px;
+    color: hsl(0, 0%, 81%);
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+   .container {
+    overflow: auto;
+    padding-top: 30px;
+    height: 100vh;
+    width: 100vw;
+   } 
+
+   .content {
+    flex-direction: column;
+}
+
+.joint {
+    flex-direction: column;
+}
+
+.joint1 {
+    flex-direction: column;
+}
+
+.joint2 {
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.con1 {
+    width: 18em;
+}
+
+.con2 {
+    margin-top: 20px;
+}
+.con3 {
+    margin-top: 20px;
+}
+
+.con4 {
+    width: 18em;
+    margin-top: 20px;
+}
+
+.con5 {
+    margin-top: 20px;
+}
+
+   .info {
+    font-size: 19px;
+    
+   }
+
+   .text {
+    font-size: 12px;
+   }
+}
+
