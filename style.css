@@ -140,7 +140,21 @@
    } 
 
    .content {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    width: 160px;
+}
+
+.names {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .joint {
